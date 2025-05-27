@@ -1,6 +1,6 @@
 # Data Warehouse & Analytics Project
 
-Welcome to my hands-on **Data Warehouse & Analytics Project** - designed to simulate a real-world data engineering workflow. This project follows the **Medallion Architecture** (Bronze → Silver → Gold) to transform raw CSV data into business-ready insights using **SQL Server** and **T-SQL**.
+Welcome to my hands-on **Data Warehouse & Analytics Project**, designed to simulate a real-world data engineering workflow. This project follows the **Medallion Architecture** (Bronze → Silver → Gold) to transform raw CSV data into business-ready insights using **SQL Server** and **T-SQL**.
 
 It’s part of my learning journey in data analytics and data engineering to build to showcase practical skills in ETL, data modeling, and analytics.
 
@@ -37,13 +37,8 @@ The project uses a **layered data warehouse architecture**:
 ---
 
 ## 📂 Repository Structure
-SQL-DataWarehouseProject/
-├── datasets/ → Source CSV files (ERP, CRM)
-├── docs/ → Diagrams, catalog, naming conventions
-├── scripts/ → SQL ETL scripts (bronze, silver, gold)
-├── tests/ → Validation and data quality checks
-├── LICENSE
-└── README.md
+![image](https://github.com/user-attachments/assets/18cf6675-6377-4fb1-b981-2b32f0a799fe)
+
 
 ---
 
@@ -82,4 +77,4 @@ I'm **Shristi Tuladhar**, an IT student, passionate about data analytics, SQL, a
 ## License
 
 This project is open-sourced under the [MIT License](LICENSE).  
-You're welcome to explore, use, and build on it - just give credit where it's due.
+You're welcome to explore, use, and build on it, just give credit where it's due.
