@@ -36,7 +36,33 @@ All transformations are handled with **manual SQL**,  no third-party tools.
 ---
 
 ## Repository Structure
-![image](https://github.com/user-attachments/assets/ea9c61f5-b011-43ef-9ba7-29c01d44d910)
+
+datasets/ # Raw source datasets from CRM and ERP systems
+
+docs/ # Project diagrams and documentation
+├── Data Architecture.png
+├── Data Flow.png
+├── Data Model (star schema).png
+├── Integration Model.png
+└── data_catalog.md
+
+scripts/ # SQL scripts organized by layer
+├── init_database.sql # Initializes the database and schemas
+├── bronze/
+│ ├── ddl_bronze.sql
+│ └── proc_load_bronze.sql
+├── silver/
+│ ├── ddl_silver.sql
+│ └── proc_load_silver.sql
+└── gold/
+└── ddl_gold.sql # Gold layer views (dim/fact)
+
+tests/ # Data quality checks
+├── quality_checks_silver.sql
+└── quality_checks_gold.sql
+
+LICENSE
+README.md
 
 **Sample Data Sources**
 - CRM data: `crm_cust_info`, `crm_sales_details`, `crm_prd_info`
