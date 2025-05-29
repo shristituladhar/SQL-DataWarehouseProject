@@ -63,8 +63,7 @@ Examples:
 
 ## Stored Procedures
 
-If used, stored procedures for ETL follow this: load_<layer>
-Examples:
+If used, stored procedures for ETL follow the naming convention, like the following examples:
 - `load_bronze`
 - `load_silver`
 - `load_gold`
