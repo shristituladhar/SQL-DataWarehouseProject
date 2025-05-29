@@ -13,7 +13,7 @@ This project follows the **Medallion Architecture**.
 - **Bronze Layer**: Raw source data from CRM and ERP systems, as-is.
 - **Silver Layer**: Cleaned, joined, and type-corrected tables.
 - **Gold Layer**: Final star schema model with `dim_customers`, `dim_products`, and `fact_sales`.
-All transformations are handled with **manual SQL** — no third-party tools.
+All transformations are handled with **manual SQL**,  no third-party tools.
 
 ---
 
