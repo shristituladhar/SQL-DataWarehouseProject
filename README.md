@@ -8,6 +8,7 @@ It’s part of my learning journey in data analytics and data engineering to sho
 
 ## Architecture Overview
 This project follows the **Medallion Architecture**.
+
 ![High Level Data Architecture](https://github.com/user-attachments/assets/e11a3b8d-d0e3-49d1-8947-5cba7a81fae7)
 
 - **Bronze Layer**: Raw source data from CRM and ERP systems, as-is.
@@ -44,11 +45,11 @@ All transformations are handled with **manual SQL**,  no third-party tools.
 ---
 
 ## Data Quality Checks
-✔ Surrogate key uniqueness  
-✔ No null dimension keys in `fact_sales`  
-✔ Foreign key validation  
-✔ Duplicate detection (pre-join)  
-✔ Gender integration logic applied (`CRM` is the master, `ERP` is fallback)
+- Surrogate key uniqueness
+- No null dimension keys in `fact_sales`
+- Foreign key validation
+- Duplicate detection (pre-join)
+- Gender integration logic applied (`CRM` is the master, `ERP` is fallback)
 
 ---
 
