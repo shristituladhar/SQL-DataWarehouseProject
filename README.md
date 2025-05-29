@@ -77,12 +77,6 @@ This project is inspired by the **"SQL Bootcamp"** series by [Data With Baraa](h
 
 ---
 
-## About Me
-
-I'm **Shristi Tuladhar**, an IT student, passionate about data analytics, SQL, and building real-world projects. This project is part of my self-taught portfolio to break into the data industry and demonstrate that I can design and build complete solutions.
-
----
-
 ## License
 
 This project is open-sourced under the [MIT License](LICENSE).  
