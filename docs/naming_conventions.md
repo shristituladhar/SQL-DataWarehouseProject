@@ -73,14 +73,6 @@ They clearly show which layer they're responsible for.
 
 ---
 
-## Optional Table Prefixes
-
-Use if needed:
-- `report_` → Pre-built reporting views (e.g., `report_monthly_sales`)
-- `tmp_` → Temporary tables for debug or staging
-
----
-
 ## Final Thoughts
 
 These naming rules help keep things:
