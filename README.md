@@ -72,7 +72,7 @@ To explore this project locally:
 ---
 
 ### Next Step
-The Gold-layer views are used as a source for downstream **Exploratory & Advanced Data Analysis** in the companion repo:[`sql-data-analytics`](https://github.com/shristituladhar/sql-data-analytics-project)
+The Gold-layer views are used as a source for downstream **Exploratory & Advanced Data Analysis** in the companion repo: [`sql-data-analytics`](https://github.com/shristituladhar/sql-data-analytics-project)
 
 ---
 
