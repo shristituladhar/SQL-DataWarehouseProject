@@ -77,7 +77,5 @@ This project is inspired by the **"SQL Bootcamp"** series by [Data With Baraa](h
 
 ---
 
-## License
-
-This project is open-sourced under the [MIT License](LICENSE).  
-You're welcome to explore, use, and build on it, just give credit where it's due.
+### Next Step
+The Gold-layer views are used as a source for downstream **Exploratory & Advanced Data Analysis** in the companion repo:[`sql-data-analytics`](https://github.com/shristituladhar/sql-data-analytics-project)
