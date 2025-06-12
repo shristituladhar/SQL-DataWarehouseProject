@@ -37,9 +37,34 @@ All transformations are handled with **manual SQL**, no third-party tools.
 
 ## Repository Structure
 
-![image](https://github.com/user-attachments/assets/0a0d0acc-f5b4-4d3f-829c-7e29d3f812d5)
-![ETL Pipeline Diagram](https://github.com/user-attachments/assets/0a0d0acc-f5b4-4d3f-829c-7e29d3f812d5)
+```plaintext
+datasets/  # Raw source datasets from CRM and ERP systems
 
+docs/  # Project diagrams and documentation
+├── Data Architecture.png
+├── Data Flow.png
+├── Data Model (star schema).png
+├── Integration Model.png
+└── data_catalog.md
+
+scripts/  # SQL scripts organized by layer
+├── init_database.sql         # Initializes the database and schemas
+├── bronze/
+│   ├── ddl_bronze.sql
+│   └── proc_load_bronze.sql
+├── silver/
+│   ├── ddl_silver.sql
+│   └── proc_load_silver.sql
+└── gold/
+    └── ddl_gold.sql          # Gold layer views (dim/fact)
+
+tests/  # Data quality checks
+├── quality_checks_silver.sql
+└── quality_checks_gold.sql
+
+LICENSE
+README.md
+```
 
 **Sample Data Sources**
 - CRM data: `crm_cust_info`, `crm_sales_details`, `crm_prd_info`
@@ -75,10 +100,10 @@ To explore this project locally:
 
 ## Related Project
 
-The Gold-layer views are used as a source for downstream **Exploratory & Advanced Data Analysis** in the companion repo:[`sql-data-analytics-project`](https://github.com/shristituladhar/sql-data-analytics-project)
+The Gold-layer views are used as a source for downstream **Exploratory & Advanced Data Analysis** in the companion repo: [`sql-data-analytics-project`](https://github.com/shristituladhar/sql-data-analytics-project)
 
 ---
 
 ## About This Project
 
-This project is inspired by the **"SQL Bootcamp"** series by [Data With Baraa](https://www.youtube.com/@DataWithBaraa). While the core concepts are based on the tutorials, all implementation, structure, and documentation have been created independently to deepen my understanding and build a professional portfolio project.
+This project is inspired by the **"SQL Bootcamp"** series by **Data With Baraa**. While the core concepts are based on the tutorials, all implementation, structure, and documentation have been created independently to deepen my understanding and build a professional portfolio project.
