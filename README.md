@@ -14,7 +14,7 @@ This project follows the **Medallion Architecture**.
 - **Bronze Layer**: Raw source data from CRM and ERP systems, as-is.
 - **Silver Layer**: Cleaned, joined, and type-corrected tables.
 - **Gold Layer**: Final star schema model with `dim_customers`, `dim_products`, and `fact_sales`.
-All transformations are handled with **manual SQL**,  no third-party tools.
+All transformations are handled with **manual SQL**, no third-party tools.
 
 ---
 
@@ -38,6 +38,8 @@ All transformations are handled with **manual SQL**,  no third-party tools.
 ## Repository Structure
 
 ![image](https://github.com/user-attachments/assets/0a0d0acc-f5b4-4d3f-829c-7e29d3f812d5)
+![ETL Pipeline Diagram](https://github.com/user-attachments/assets/0a0d0acc-f5b4-4d3f-829c-7e29d3f812d5)
+
 
 **Sample Data Sources**
 - CRM data: `crm_cust_info`, `crm_sales_details`, `crm_prd_info`
@@ -71,8 +73,9 @@ To explore this project locally:
 
 ---
 
-### Next Step
-The Gold-layer views are used as a source for downstream **Exploratory & Advanced Data Analysis** in the companion repo: [`sql-data-analytics`](https://github.com/shristituladhar/sql-data-analytics-project)
+## Related Project
+
+The Gold-layer views are used as a source for downstream **Exploratory & Advanced Data Analysis** in the companion repo:[`sql-data-analytics-project`](https://github.com/shristituladhar/sql-data-analytics-project)
 
 ---
 
